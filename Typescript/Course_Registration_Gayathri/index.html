@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Course Registration</title>
+        <link rel="stylesheet" href="stylesheet/style.css">
+    </head>
+    <body>
+        <h1>Home Page</h1>
+        <div id="Homepage">
+            <button onclick="newuser()">Newuser</button>
+            <button onclick="login()" >Login</button><br>
+        </div>
+
+        <div id="Newuser">
+            <h2>NewUser Registration</h2>
+            <label id="username">Username</label><br>
+            <input type="text"  name="username"><br>
+            <label id="userAge">UserAge</label><br>
+            <input type="number" name="userage"><br>
+            <label id="Mobilenumber">Mobilenumber</label><br>
+            <input type="number" name="Mobilenumber"><br>
+
+            <button type="button" onclick="homepage()"></button>
+        </div>
+
+        <div id="login">
+            <h2>Login</h2>
+            <label id="Userid">UserId</label><br>
+            <input type="text" name="Userid"><br>
+            <button type="button">confirm</button>
+        </div>
+
+        <div id="Availablecourses">
+            <h2>Available Courses</h2>
+            <select name="CoursesAvailable" id="courses">
+                <option value="Cyber security">Cyber Security</option>
+                <option value="Csharp">Csharp</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Typescript">Typescript</option>
+                <option value="python">Python</option>
+            </select>
+            <button onclick="Enroll()">Enroll</button>
+        </div>
+
+
+    </body>
+    <script src="Typescript/main.js"></script>
+</html>

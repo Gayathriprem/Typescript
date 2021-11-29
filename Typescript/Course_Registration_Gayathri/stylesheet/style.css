@@ -1,0 +1,15 @@
+#Homepage{
+    display:block;
+}
+#Availablecourses{
+    visibility: hidden;
+}
+#login{
+    visibility: hidden;
+}
+#newuser{
+    visibility:hidden;
+}
+#button{
+    color:tomato;
+}
